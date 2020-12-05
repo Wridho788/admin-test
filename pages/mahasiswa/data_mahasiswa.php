@@ -47,7 +47,7 @@
                   <td><?php echo $d['kelas'];?></td>
                   <td><?php echo $d['jurusan'];?></td>
                   <td>
-                    <a href="index.php?page=ubah_mahasiswa&id=<?=$d['id_mahasiswa'];?>" class="btn btn-success" role="button" title="Ubah Data"><i class="glyphicon glyphicon-edit"></i></a>
+                    <a href="index.php?page=update_mahasiswa&id=<?=$d['id_mahasiswa'];?>" class="btn btn-success" role="button" title="Update Data"><i class="glyphicon glyphicon-edit"></i></a>
                     <a href="pages/mahasiswa/hapus_mahasiswa.php?id=<?=$d['id_mahasiswa'];?>" class="btn btn-danger" role="button" title="Hapus Data"><i class="glyphicon glyphicon-trash"></i></a>
                   </td>
                 </tr>
